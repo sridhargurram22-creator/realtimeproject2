@@ -32,12 +32,12 @@ public class TestClass extends BaseClass {
 		test.info("Entering credentials");
 		
 		
-		ss.takeScreenshot("before entering cred");
+		ss.takeScreenshot("before entering cred"+username);
 		
 		
 		login.loginPage(username,password);
 		
-		ss.takeScreenshot("after entering cred");
+		ss.takeScreenshot("after entering cred"+username);
 		
 		Thread.sleep(2000);
 		
