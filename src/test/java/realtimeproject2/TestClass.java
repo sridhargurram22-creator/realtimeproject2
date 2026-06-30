@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-import realtime_project.ExcelUtils;
+
 
 public class TestClass extends BaseClass {
 	
@@ -52,12 +52,12 @@ public class TestClass extends BaseClass {
 	public Object[][] customerCredentails() throws Exception{
 		
 		return  new Object[][] {
-			{ExcelUtils.getData(0, 0),
-				ExcelUtils.getData(0, 1)},
-				{ExcelUtils.getData(1, 0),
-					ExcelUtils.getData(1, 1)},
-				{ExcelUtils.getData(2, 0),
-						ExcelUtils.getData(2, 1)}
+			{ExcelDataClass.getData(0, 0),
+				ExcelDataClass.getData(0, 1)},
+				{ExcelDataClass.getData(1, 0),
+					ExcelDataClass.getData(1, 1)},
+				{ExcelDataClass.getData(2, 0),
+						ExcelDataClass.getData(2, 1)}
 		};
 		
 		
