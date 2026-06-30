@@ -1,17 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
   <groupId>package1</groupId>
   <artifactId>Sridhar_Maven_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  
  <dependencies>
  
- <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.34.0</version>
+    <version>4.21.0</version>
     <scope>compile</scope>
 </dependency>
 
@@ -39,6 +38,7 @@
     <version>2.0.13</version>
     <scope>compile</scope>
 </dependency>
+
 <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-simple</artifactId>
@@ -79,9 +79,10 @@
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>5.0.9</version>
+            <version>5.1.1</version>
         </dependency>
-     
+
+
 <!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
     <groupId>io.cucumber</groupId>
@@ -97,8 +98,8 @@
     <version>7.33.0</version>
     <scope>compile</scope>
 </dependency>
- 
- </dependencies>
+
+</dependencies>
   
   
 </project>
