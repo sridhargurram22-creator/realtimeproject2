@@ -40,7 +40,7 @@ public class TestClass extends BaseClass {
 		ss.takeScreenshot("after entering cred"+username);
 		
 		Thread.sleep(2000);
-		
+		test.info("Test case completed successfully");
 		test.pass("Test case passed");
 		
 		extent.flush();
